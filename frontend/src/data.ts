@@ -1,4 +1,5 @@
 import { Food } from "./app/shared/models/food";
+import { Tag } from "./app/shared/models/tag";
 
 export const sample_foods: Food[] = [
     {
@@ -6,9 +7,9 @@ export const sample_foods: Food[] = [
         name:'Golden Corn Pizza',
         price: 129,
         cookTime:'30-40',
-        origins: ['italy'],
+        origins: ['Italy'],
         
-        imageUrl: '/home/kanika/Desktop/foodwine/frontend/src/assets/goldenCorn.jpeg',
+        imageUrl: 'assets/goldenCorn.jpeg',
         tags: ['FastFood', 'Pizza','Snacks'],
         stars: 4.1,
     },
@@ -17,9 +18,9 @@ export const sample_foods: Food[] = [
         name:'Double Cheese Pizza',
         price: 199,
         cookTime:'40-50',
-        origins: ['italy'],
+        origins: ['Italy'],
         
-        imageUrl: 'frontend/src/assets/DoubleCheese.jpeg',
+        imageUrl: 'assets/DoubleCheese.jpeg',
         tags: ['FastFood', 'Pizza','Snacks'],
         stars: 4.3,
     },
@@ -28,9 +29,9 @@ export const sample_foods: Food[] = [
         name:'Chilliy Momos ',
         price: 99,
         cookTime:'30-40',
-        origins: ['korean'],
+        origins: ['Korean'],
         
-        imageUrl: 'frontend/src/assets/chillyMomos.jpeg',
+        imageUrl: 'assets/chillyMomos.jpeg',
         tags: ['FastFood', 'Momos','Snacks'],
         stars: 4.6,
     },
@@ -39,9 +40,9 @@ export const sample_foods: Food[] = [
         name:'Pasta',
         price: 119,
         cookTime:'30-40',
-        origins: ['italy'],
+        origins: ['Italy'],
         
-        imageUrl: 'frontend/src/assets/pasta.jpeg',
+        imageUrl: 'assets/pasta.jpeg',
         tags: ['FastFood', 'Pasta','Snacks'],
         stars: 4.7,
     },
@@ -50,9 +51,9 @@ export const sample_foods: Food[] = [
         name:'Chinese Cuisine',
         price: 399,
         cookTime:'50-60',
-        origins: ['chinese'],
+        origins: ['Chinese'],
         
-        imageUrl: '/home/kanika/Desktop/foodwine/frontend/src/assets/goldenCorn.jpeg',
+        imageUrl: 'assets/cuisine.jpeg',
         tags: ['FastFood', 'Noodles','manchurian','fried rice','Snacks'],
         stars: 4.5,
     },
@@ -61,9 +62,9 @@ export const sample_foods: Food[] = [
         name:'Spring Rolls',
         price: 99,
         cookTime:'30-40',
-        origins: ['filipino'],
+        origins: ['Filipino'],
         
-        imageUrl: '/frontend/src/assets/springRoll.jpeg',
+        imageUrl: 'assets/springRoll.jpeg',
         tags: ['FastFood', 'Pizza','Snacks'],
         stars: 4.1,
     },
@@ -74,7 +75,7 @@ export const sample_foods: Food[] = [
         cookTime:'30-40',
         origins: ['China'],
         
-        imageUrl: 'frontend/src/assets/manchurian.jpeg',
+        imageUrl: 'assets/manchurian.jpeg',
         tags: ['FastFood', 'manchurian','Snacks'],
         stars: 4.1,
     },
@@ -83,9 +84,9 @@ export const sample_foods: Food[] = [
         name:'Masala Dosa',
         price: 129,
         cookTime:'30-40',
-        origins: ['india'],
+        origins: ['India'],
         
-        imageUrl: 'frontend/src/assets/dosa.jpeg',
+        imageUrl: 'assets/dosa.jpeg',
         tags: ['FastFood', 'Dosa','South indian','Snacks'],
         stars: 4.1,
     },
@@ -94,9 +95,9 @@ export const sample_foods: Food[] = [
         name:'Bada Pav',
         price: 29,
         cookTime:'30-40',
-        origins: ['india'],
+        origins: ['India'],
         
-        imageUrl: 'frontend/src/assets/bdapav.jpeg',
+        imageUrl: 'assets/bdapav.jpeg',
         tags: ['FastFood', 'Bda pav','Snacks'],
         stars: 4.1,
     },
@@ -105,10 +106,25 @@ export const sample_foods: Food[] = [
         name:'Samosa',
         price: 30,
         cookTime:'30-40',
-        origins: ['india'],
+        origins: ['India'],
         
-        imageUrl: 'frontend/src/assets/samosa.jpeg',
+        imageUrl: 'assets/samosa.jpeg',
         tags: ['FastFood', 'samosa','Snacks'],
         stars: 4.1,
     }
+]
+
+export const sample_tags:Tag[]=[
+    { name: 'All',count:10},
+    { name: 'FastFood', count:10},
+    { name: 'pizza', count:2},
+    { name: 'pasta', count:1},
+    { name:'momos', count:1},
+    { name: 'chinese',count:4},
+    { name: 'south indian',count:1},
+    { name: 'indian', count:3},
+    { name:'bdapav', count:1},
+    { name:'samosa',count:1},
+    { name:'dosa',count:1},
+    { name:'manchurian', count:1}
 ]
