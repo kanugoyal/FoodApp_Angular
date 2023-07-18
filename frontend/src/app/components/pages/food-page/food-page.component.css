@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+.container > *{
+    min-width: 20rem;
+    max-width: 25rem;
+
+}
+
+img{
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 20rem;
+    margin: 1rem;
+
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border: 3rem;
+    padding:2rem;
+    color: black;
+    margin-left:1rem;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.origins{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 1rem 1rem;
+
+}
+
+.origins span{
+    padding:0.5rem;
+    font-size: 1.2rem;
+    margin:0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius:2rem;
+    background-color: rgb(231, 234, 236);
+    color: rgb(61, 58, 58);
+
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags a{
+    background-color: rgb(228, 236, 236);
+    padding: 0.3rem 1rem;
+    margin: 0.2rem 0.15rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    color: rgb(31, 31, 240);
+}
+
+.cook-time{
+    margin-top: 1rem;
+
+}
+
+.cook-time span{
+    padding: 0.6rem 2rem 0.6rem 0;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    color:  rgb(61, 58, 58);
+}
+
+.price{
+    font-size:1.6rem;
+    margin:2rem 2rem 2rem 0;
+    color: rgb(15, 102, 15);
+}
+
+.price::before{
+    content: "Price: ";
+    color: rgb(110, 110, 110);
+}
+
+button{
+    color: white;
+    background:rgb(31, 31, 240);
+    border: none;
+    font-size:1.2rem;
+    padding: 1rem;
+    border-radius: 8rem;
+    outline: none;
+
+}
+
+button:hover{
+    opacity:0.9;
+    cursor: pointer;
+}

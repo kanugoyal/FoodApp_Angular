@@ -32,7 +32,7 @@ export const sample_foods: Food[] = [
         origins: ['Korean'],
         
         imageUrl: 'assets/chillyMomos.jpeg',
-        tags: ['FastFood', 'Momos','Snacks'],
+        tags: ['FastFood','Chinese', 'Momos','Snacks'],
         stars: 4.6,
     },
     {
@@ -54,7 +54,7 @@ export const sample_foods: Food[] = [
         origins: ['Chinese'],
         
         imageUrl: 'assets/cuisine.jpeg',
-        tags: ['FastFood', 'Noodles','manchurian','fried rice','Snacks'],
+        tags: ['FastFood', 'Chinese','Noodles','Manchurian','fried rice','Snacks'],
         stars: 4.5,
     },
     {
@@ -65,7 +65,7 @@ export const sample_foods: Food[] = [
         origins: ['Filipino'],
         
         imageUrl: 'assets/springRoll.jpeg',
-        tags: ['FastFood', 'Pizza','Snacks'],
+        tags: ['FastFood','Chinese', 'Spring Rolls','Snacks'],
         stars: 4.1,
     },
     {
@@ -76,7 +76,7 @@ export const sample_foods: Food[] = [
         origins: ['China'],
         
         imageUrl: 'assets/manchurian.jpeg',
-        tags: ['FastFood', 'manchurian','Snacks'],
+        tags: ['FastFood', 'Manchurian','Chinese','Snacks'],
         stars: 4.1,
     },
     {
@@ -87,7 +87,7 @@ export const sample_foods: Food[] = [
         origins: ['India'],
         
         imageUrl: 'assets/dosa.jpeg',
-        tags: ['FastFood', 'Dosa','South indian','Snacks'],
+        tags: ['FastFood', 'Dosa','South Indian','Indian','Snacks'],
         stars: 4.1,
     },
     {
@@ -98,7 +98,7 @@ export const sample_foods: Food[] = [
         origins: ['India'],
         
         imageUrl: 'assets/bdapav.jpeg',
-        tags: ['FastFood', 'Bda pav','Snacks'],
+        tags: ['FastFood', 'Bada Pav','Snacks','Indian'],
         stars: 4.1,
     },
     {
@@ -109,7 +109,7 @@ export const sample_foods: Food[] = [
         origins: ['India'],
         
         imageUrl: 'assets/samosa.jpeg',
-        tags: ['FastFood', 'samosa','Snacks'],
+        tags: ['FastFood', 'Samosa','Snacks','Indian'],
         stars: 4.1,
     }
 ]
@@ -117,14 +117,14 @@ export const sample_foods: Food[] = [
 export const sample_tags:Tag[]=[
     { name: 'All',count:10},
     { name: 'FastFood', count:10},
-    { name: 'pizza', count:2},
-    { name: 'pasta', count:1},
-    { name:'momos', count:1},
-    { name: 'chinese',count:4},
-    { name: 'south indian',count:1},
-    { name: 'indian', count:3},
-    { name:'bdapav', count:1},
-    { name:'samosa',count:1},
-    { name:'dosa',count:1},
-    { name:'manchurian', count:1}
+    { name: 'Pizza', count:2},
+    { name: 'Pasta', count:1},
+    { name:'Momos', count:1},
+    { name: 'Chinese',count:4},
+    { name: 'South Indian',count:1},
+    { name: 'Indian', count:3},
+    { name:'Bada Pav', count:1},
+    { name:'Samosa',count:1},
+    { name:'Dosa',count:1},
+    { name:'Manchurian', count:1}
 ]
