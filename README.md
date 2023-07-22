@@ -2,7 +2,9 @@
 
 This project is aimed at building a full-fledged food ordering website using the Angular framework for the frontend, Node.js for the backend, and MongoDB for the database. The website will allow users to browse through various food items, place orders, and make payments online. The project is currently in Stage 1, focusing on the frontend development using Angular. Subsequent stages will involve the implementation of the backend using Node.js and integrating it with MongoDB.
 
-![Demo Video](frontend/assets/ezgif.com-video-to-gif.gif)
+![Demo Video](/home/kanika/Desktop/foodwine/ezgif.com-video-to-gif.gif)
+
+
 
 ## Stage 1: Frontend (Angular)
 
