@@ -55,19 +55,7 @@ At this stage, the frontend will include the following features:
 - Calculating the total price of the order.
 - Proceeding to the checkout page.
 
-## Stage 2: Backend (Node.js) and Database (MongoDB)
 
-The next stage of the project will focus on building the backend using Node.js and setting up the MongoDB database. The backend will handle user authentication, process orders, manage restaurant data, and interact with the database for data storage.
-
-## Future Development
-
-In the subsequent stages, we will work on the following features:
-
-- Implementing user authentication and authorization on the backend.
-- Building RESTful APIs for handling user registration, login, and order processing.
-- Integrating the backend with MongoDB for data storage.
-- Adding admin functionalities to manage restaurants and their menus.
-- Implementing real-time order tracking and notifications.
 
 Please note that this Readme will be updated as the project progresses through different stages.
 
