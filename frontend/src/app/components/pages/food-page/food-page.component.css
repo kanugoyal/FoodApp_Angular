@@ -71,7 +71,7 @@ img{
     margin: 0.2rem 0.15rem;
     border-radius: 10rem;
     font-weight: 600;
-    color: rgb(31, 115, 240);
+    color: rgb(35, 110, 153);
 }
 
 .cook-time{
@@ -99,7 +99,7 @@ img{
 
 button{
     color: white;
-    background:rgb(31, 115, 240);
+    background:rgb(35, 110, 153);
     border: none;
     font-size:1.2rem;
     padding: 1rem;
