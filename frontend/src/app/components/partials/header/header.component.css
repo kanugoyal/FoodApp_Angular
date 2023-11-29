@@ -2,15 +2,15 @@ header{
     position: relative;
     background: white;
     padding: 0;
-    border-bottom: 1px solid rgb(16, 139, 187);
+    border-bottom: 1px solid (rgb(35, 110, 153));
 }
 
 a{
-    color:rgb(10, 106, 145);
+    color:rgb(35, 110, 153);
 }
 
 a:hover{
-    background: rgb(16, 139, 187);
+    background: rgb(61, 148, 199);
     color: white;
     cursor: pointer;
 }
@@ -38,7 +38,7 @@ ul a{
 }
 
 a span{
-    background: rgb(25, 133, 175);
+    background:rgb(35, 110, 153);
     color: white;
     padding: 0.1rem 0.45rem;
     border-radius: 100rem;
